@@ -17,6 +17,8 @@ async function request(path, options = {}) {
   return response.json()
 }
 
+//test
+
 export const getStudents = (search = '') =>
   request(`/students${search ? `?search=${encodeURIComponent(search)}` : ''}`)
 export const createStudent = (student) =>

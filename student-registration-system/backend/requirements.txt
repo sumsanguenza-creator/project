@@ -5,3 +5,4 @@ psycopg[binary]>=3.2,<4.0
 pydantic[email]>=2.8,<3.0
 google-genai
 python-dotenv
+PyJWT
